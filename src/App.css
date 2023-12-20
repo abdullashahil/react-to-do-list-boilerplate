@@ -1,0 +1,35 @@
+.body{
+  text-align: center;
+}
+
+.main{
+  background-color: rgb(80, 174, 218);
+  height: 100vh;
+  width: 100vw;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  
+}
+
+input{
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  height: 33px;
+  width: 300px;
+  margin-right: 5px;
+  border-radius: 8px ;
+}
+
+input::placeholder{
+  padding-left: 10px;
+  color: rgb(176, 176, 176);
+}
+
+.delbtn{
+  margin-bottom: 20px;
+}
